@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C01743D2900A8D000917912 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C01743C2900A8D000917912 /* FeedItem.swift */; };
 		6C35B19428FF512D00E88E16 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35B18B28FF512C00E88E16 /* EssentialFeed.framework */; };
 		6C35B19928FF512D00E88E16 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C35B19828FF512D00E88E16 /* EssentialFeedTests.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C01743C2900A8D000917912 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		6C35B18B28FF512C00E88E16 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C35B19328FF512D00E88E16 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C35B19828FF512D00E88E16 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		6C35B18D28FF512C00E88E16 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				6C01743C2900A8D000917912 /* FeedItem.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C01743D2900A8D000917912 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +395,7 @@
 		6C35B1A128FF512D00E88E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SD9LBPX623;
@@ -406,6 +411,7 @@
 		6C35B1A228FF512D00E88E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SD9LBPX623;
