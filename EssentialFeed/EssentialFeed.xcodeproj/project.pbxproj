@@ -95,9 +95,17 @@
 		6C35B19728FF512D00E88E16 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				6C35B19828FF512D00E88E16 /* RemoteFeedLoaderTests.swift */,
+				6C9F5388290C616600FC2C5C /* Feed API */,
 			);
 			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		6C9F5388290C616600FC2C5C /* Feed API */ = {
+			isa = PBXGroup;
+			children = (
+				6C35B19828FF512D00E88E16 /* RemoteFeedLoaderTests.swift */,
+			);
+			path = "Feed API";
 			sourceTree = "<group>";
 		};
 		6CA47E042901F2E8003D391F /* Feed API */ = {
