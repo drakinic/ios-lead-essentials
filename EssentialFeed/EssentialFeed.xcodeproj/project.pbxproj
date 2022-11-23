@@ -75,6 +75,7 @@
 		6CDDEB9A292EC54000A5FDE2 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDDEB99292EC54000A5FDE2 /* Feed.storyboard */; };
 		6CDDEB9C292ECBAB00A5FDE2 /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDDEB9B292ECBAB00A5FDE2 /* Feed.xcassets */; };
 		6CDDEB9E292EDDE300A5FDE2 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDEB9D292EDDE300A5FDE2 /* UITableView+Dequeueing.swift */; };
+		6CDDEBA0292EDFAB00A5FDE2 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDEB9F292EDFAB00A5FDE2 /* UIImageView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,7 @@
 		6CDDEB99292EC54000A5FDE2 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		6CDDEB9B292ECBAB00A5FDE2 /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
 		6CDDEB9D292EDDE300A5FDE2 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
+		6CDDEB9F292EDFAB00A5FDE2 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +477,7 @@
 				6CA27D4C292943C100435D05 /* FeedImageCell.swift */,
 				6CA27D4E29296D9000435D05 /* UIView+Shimmering.swift */,
 				6CDDEB9D292EDDE300A5FDE2 /* UITableView+Dequeueing.swift */,
+				6CDDEB9F292EDFAB00A5FDE2 /* UIImageView+Animations.swift */,
 				6CDDEB99292EC54000A5FDE2 /* Feed.storyboard */,
 				6CDDEB9B292ECBAB00A5FDE2 /* Feed.xcassets */,
 			);
@@ -838,6 +841,7 @@
 				6CDDEB96292EC17200A5FDE2 /* FeedLoadingViewModel.swift in Sources */,
 				6CA27D4F29296D9000435D05 /* UIView+Shimmering.swift in Sources */,
 				6CDDEB93292EBEAB00A5FDE2 /* FeedImagePresenter.swift in Sources */,
+				6CDDEBA0292EDFAB00A5FDE2 /* UIImageView+Animations.swift in Sources */,
 				6CA27D4B29293CAF00435D05 /* FeedViewController.swift in Sources */,
 				6CA27D4D292943C100435D05 /* FeedImageCell.swift in Sources */,
 				6CDDEB8E292C78F100A5FDE2 /* FeedImageViewModel.swift in Sources */,
